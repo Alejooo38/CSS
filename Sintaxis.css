@@ -16,7 +16,8 @@ header{
 	position: relative;
 	width: 1000px;
 	height: 210px;	
-	margin: 0 auto;	
+	margin: 0 auto;
+	background: #5b7989;	
 }
 
 #logo{
