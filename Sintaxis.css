@@ -53,4 +53,40 @@ img {
   margin-right: auto;
 }
 
+.secundaria {
+  margin: 0px;
+  background: #d5c75f;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: space-around;
+  -webkit-display: flex;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  -webkit-align-items: center;
+}
+
+.secundaria>div {
+  flex: 0 0;
+  -webkit-flex:0 0;
+}
+
+#secundaria {
+  order: 1;
+  -webkit-order: 1;
+}
+
+#derecha {
+  order: 2;
+  -webkit-order: 2;
+}
+
+.secundaria>div>a>figure>img {
+  border: 1px black solid;
+  width: 320px;
+}
+
 
