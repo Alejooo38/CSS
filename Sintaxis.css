@@ -55,11 +55,9 @@ img {
 
 .secundaria {
   margin: 0px;
-  background: #d5c75f;
-
+  flex-wrap: wrap;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content:center;
   align-items: space-around;
   -webkit-display: flex;
@@ -67,6 +65,7 @@ img {
   -webkit-flex-wrap: wrap;
   -webkit-justify-content: space-around;
   -webkit-align-items: center;
+  background: #d5c75f;
 }
 
 .secundaria>div {
@@ -74,19 +73,34 @@ img {
   -webkit-flex:0 0;
 }
 
-#secundaria {
+#img_izq {
   order: 1;
   -webkit-order: 1;
 }
 
-#derecha {
+#img_der {
   order: 2;
   -webkit-order: 2;
 }
 
-.secundaria>div>a>figure>img {
+.img_izq>div>a>figure>img {
   border: 1px black solid;
   width: 320px;
 }
 
+.secundaria>div>a>figure>figcaption {
+  color: black;
+}
+
+#img_izq>a>figure>img:first-child:hover {
+  box-shadow:2px 2px 2px #82c3a6;  
+  transform: rotateZ(10deg);
+  border: 2px black solid;
+}
+
+#img_der>a>figure>img:first-child:hover {
+   box-shadow:2px 2px 2px #82c3a6;
+   transform: translate(20px, -5px); 
+   border: 2px black solid;
+}
 
