@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<title>Comenzando con la Fotografía</title>
     <meta charset="utf-8" />
-    <title>Curriculum Vitae</title>
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="Normalize.css">
     <link rel="stylesheet" type="text/css" href="Modernizer-custom.js">   
     <link rel="stylesheet" type="text/css" href="Sintaxis.css">    
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">    
     <style type="text/css">
     	
     </style>
@@ -13,23 +15,49 @@
        
 </head>
 <body>
-	<header>
-		<div id="logo">Comenzando con la fotografía</div>
+	<div class="FramePrincipal">
+		<header class="cabecera">
+			<div id="logo">Comenzando con la fotografía</div>
 
-		<nav>
-			<ul>
-				<a href="index.html"><li class="botones">Inicio</li></a>
-				<a href="paisajes.html" target="_blank"><li class="botones">Paisajes</li></a>
-				<a href="retratos.html" target="_blank"><li class="botones">Retratos</li></a>	
-			</ul>
-		</nav>
-	</header>
+			<nav>
+				<ul>
+					<a href="index.html"><li class="botones">Inicio</li></a>
+					<a href="paisajes.html" target="_blank"><li class="botones">Paisajes</li></a>
+					<a href="retratos.html" target="_blank"><li class="botones">Retratos</li></a>	
+				</ul>
+			</nav>
+		</header>
+
+		<section>
+        <article class="principal">
+          <img id="img_principal" src="images/daniel.jpg" alt="Imagen Principal" title="Imagen Principal">
+        </article>
+        <article class="secundaria">
+          <div id="img_left">
+            <a href="Paginas/paisajes.html">
+              <figure>
+                <img src="images/izquierda_350px.jpg" alt="Imagen Secundaria Izquierda" title="Imagen Secundaria Izquierda">
+                <figcaption>Paisajes</figcaption>
+              </figure>
+            </a>
+          </div>
+          <div id="img_right">
+            <a href="Paginas/retratos.html">
+              <figure>
+                <img src="images/derecha_350px.jpg" alt="Imagen Secundaria Derecha" title="Imagen Secundaria Derecha">
+                <figcaption>Retratos</figcaption>
+              </figure>
+            </a>
+          </div>
+        </article>
+      </section>
 				
-	<footer> <br>&copy; Todos los derechos reservados.... <br>
-	 <p>Email: daniel.ruiz@nextU.com</p>
-	 <p>Movil: 3115462536</p>
-	 <br> 
-	</footer> 	
+		<footer> <br>&copy; Todos los derechos reservados.... <br>
+		 <p>Email: daniel.ruiz@nextU.com</p>
+		 <p>Movil: 3115462536</p>
+		 <br> 
+		</footer>
+	</div>
 </body>
 </html>
 
