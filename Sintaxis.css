@@ -22,10 +22,15 @@ header{
 
 #logo{
 	position: absolute;
-	top: 5px;
+	top: 40px;
 	left: 30px;	
-	width: 260px;
+	width: 420px;
 	height: 60px;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 30px;
+	line-height: 60px;
+	color: white;
+	text-shadow: 2px color: #02010a;
 	background: #ccc;
 }
 
