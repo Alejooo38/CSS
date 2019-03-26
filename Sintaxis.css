@@ -174,7 +174,6 @@ img {
 .paisajes {
   margin: 0px;
   background: #d5c75f;
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -334,7 +333,7 @@ img {
     float: none;
   }
 
-  #img_ppal {
+  #main_image {
     width: 100%;
   }
 
@@ -356,28 +355,31 @@ img {
     width: 220px;
   }
 
-  .pie_de_pagina {
+  .footer {
       flex-direction: column;
       -webkit-flex-direction: column;
   }
 
-  .pie_de_pagina>div {
+  .footer>div {
     width: 100%;
   }
 
-  #col1 {
-    margin-bottom: 10px;
+  #Contacto {
+  order: 1;
+  -webkit-order: 1;
   }
 
-  #col2 {
-    margin-bottom: 10px;
+#terminos {
+  order: 2;
+  -webkit-order: 2;
   }
 
-  #col3 {
-    margin-bottom: 10px;
+#redes {
+  order: 3;
+  -webkit-order: 3;
   }
 
-  .pie_de_pagina>div {
+  .footer>div {
     max-width: 320px;
     height: 100%;
     display: block;
